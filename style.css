@@ -2,13 +2,16 @@
     margin: 0%;
     font-family: 'Inter';
     font-style: normal;
-
+}
+body{
+    background: #F5F5F5
+    ;
 }
 .nabver {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85.375rem;
+    width: 100%;
     height: 4.125rem;
     background: #FFFFFF;
     box-shadow: 0rem 0rem 0.688rem 0.125rem rgba(0, 0, 0, 0.24);
@@ -56,4 +59,18 @@
     font-weight: 700;
     font-size: 18px;
     margin-left: 0.87rem;
+}
+
+/* Header section */
+.container h1 {
+    font-weight: 700;
+    font-size: 180px;
+    color: rgba(0, 0, 0, 0.37);
+    transform: matrix(0.00, 1, -1, 0.00, -595, 558);
+}
+.container h5 {
+font-weight: 700;
+font-size: 38px;
+color: rgba(252, 25, 25, 0.37);
+transform: matrix(0.01, 1, -1, 0.01, -460, 458);
 }
