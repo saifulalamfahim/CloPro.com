@@ -1,3 +1,59 @@
-h1 {
-    color: red;
+*{
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+.nabver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85.375rem;
+    height: 4.125rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0rem 0.688rem 0.125rem rgba(0, 0, 0, 0.24);
+    
+}
+.logo{
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #F9CB71;
+    margin-left: 5rem;
+}
+.nav-list{
+    width: 31.313rem;
+    height: 3rem;
+    background: #000000;
+    align-items: center;
+    display: flex;
+    margin-right: 4.5rem;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list ul li {
+    display: flex;
+   align-items: center;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    list-style: none;
+    font-weight: 00;
+    font-size: 23px;
+}
+.nav-list ul li button{
+   display: flex;
+   align-items: center;
+    width: 88px;
+    height: 36px;
+    background: #3003E7;
+    border-radius: 7px;
+}
+.nav-list ul li button span{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 0.87rem;
 }
