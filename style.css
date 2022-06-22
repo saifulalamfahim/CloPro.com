@@ -133,9 +133,42 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     margin-left: 20px;
 }
 .container .gallery .gallery-1 .carousel-Gallery img {
-width: 143.89px;
-height: 100px;
-object-fit: cover;
-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
-border-radius: 10px;
+    width: 143.89px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.container .gallery .gallery-2 img{
+    position: absolute;
+    width: 325.7px;
+    height: 552px;
+    left: 897.37px;
+    top: 103.11px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+}
+.container .some-text{
+    position: absolute;
+    width: 832.23px;
+    height: 44px;
+    left: 298.48px;
+    top: 676.11px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.84);
+}
+/* .container h1 {
+    font-weight: 700;
+    font-size: 180px;
+    color: rgba(0, 0, 0, 0.37);
+    transform: matrix(0.00, 1, -1, 0.00, -595, 558);
+} */
+.container .fashion h1{
+    font-weight: 700;
+    font-size: 180px;
+    color: rgba(106, 207, 227, 0.54);
+    transform: matrix(0.00, 1, -1, 0.00, 566, 296);
 }
