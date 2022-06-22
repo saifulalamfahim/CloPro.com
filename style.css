@@ -72,7 +72,7 @@ body{
 font-weight: 700;
 font-size: 38px;
 color: rgba(252, 25, 25, 0.37);
-transform: matrix(0.01, 1, -1, 0.01, -460, 458);
+transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 }
 .container .gallery .gallery-1 .curousel img{
     position: absolute;
@@ -99,7 +99,7 @@ transform: matrix(0.01, 1, -1, 0.01, -460, 458);
 }
 .container .gallery .gallery-1 .curousel .Curousel-details h2{
     position: absolute;
-    width: 231px;
+    width: 331px;
     height: 46px;
     left: 401px;
     top: 345px;
@@ -119,4 +119,23 @@ transform: matrix(0.01, 1, -1, 0.01, -460, 458);
     display: flex;
     align-items: center;
     text-align: center;
+}
+.container .gallery .gallery-1 .carousel-Gallery ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 555.11px;
+    left: 228.06px;
+
+}
+.container .gallery .gallery-1 .carousel-Gallery li{
+    list-style: none;
+    margin-left: 20px;
+}
+.container .gallery .gallery-1 .carousel-Gallery img {
+width: 143.89px;
+height: 100px;
+object-fit: cover;
+box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
 }
