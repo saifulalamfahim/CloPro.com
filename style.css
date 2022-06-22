@@ -74,3 +74,49 @@ font-size: 38px;
 color: rgba(252, 25, 25, 0.37);
 transform: matrix(0.01, 1, -1, 0.01, -460, 458);
 }
+.container .gallery .gallery-1 .curousel img{
+    position: absolute;
+    width: 585.28px;
+    height: 435px;
+    left: 230.42px;
+    top: 97.11px;
+    box-shadow: 2px 3px 8px rgba(105, 89, 89, 0.4);
+    border-radius: 6px;
+    object-fit: cover;
+}
+.container .gallery .gallery-1 .curousel .icon{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 573.91px;
+    height: 32.31px;
+    left: 236.09px;
+    top: 303px;
+    color: white;
+}
+.container .gallery .gallery-1 .curousel .Curousel-details{
+    color: #FFFFFF;
+}
+.container .gallery .gallery-1 .curousel .Curousel-details h2{
+    position: absolute;
+    width: 231px;
+    height: 46px;
+    left: 401px;
+    top: 345px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+.container .gallery .gallery-1 .curousel .Curousel-details p{
+    position: absolute;
+    width: 518.2px;
+    height: 118px;
+    left: 264px;
+    top: 394px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
