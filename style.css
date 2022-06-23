@@ -172,3 +172,27 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: rgba(106, 207, 227, 0.54);
     transform: matrix(0.00, 1, -1, 0.00, 566, 296);
 }
+
+
+
+/* products section */
+.Products-Container .PRODUCTS{
+    position: absolute;
+    width: 661px;
+    height: 145px;
+    left: 363px;
+    top: 735px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 145px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);
+}
