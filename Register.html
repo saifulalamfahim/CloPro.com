@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signin</title>
+    <title>Register</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Signin.css">
+    <link rel="stylesheet" href="Register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -14,9 +14,9 @@
 </head>
 <body>
 
-    <!-- nav section -->
+      <!-- nav section -->
 
-    <nav> 
+      <nav> 
         <div class="nabver">
             <div class="logo"><a href="Home.html">LOGO</a></div>
             <div class="nav-list">
@@ -31,31 +31,39 @@
     </nav>
 
 
-
-    <!-- Signin Section -->
-
+    
     <section>
-        <div class="Signin-Container">
-            <h2>Sign-In</h2>
+        <div class="Register-Container">
+            <h2>Register</h2>
             <form action="/action_page.php">
-                <label for="fname">Email</label>
+                <label for="fname">Name</label>
                 <br>
-                <input type="email" id="fname" name="fname"><br><br>
-                <label for="lname">Password</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Email</label>
+                <br>
+                <input type="email" id="lname" name="lname"><br><br>
+                <label for="fname">Password</label>
+                <br>
+                <input type="password" id="fname" name="fname"><br><br>
+             
+                <label for="lname">Re-Type-Password</label>
                 <br>
                 <input type="password" id="lname" name="lname"><br><br>
                 <input class="submit" type="submit" value="Signin">
               </form>
 
-              <p><a href="Register.html">new User? Create your account</a></p>
+              <p><a href="Signin.html">Already have a account? Sign-In
+            </a></p>
 
         </div>
     </section>
 
 
-    <!-- Footer Section -->
-    <Section>
-        <div class="Signin-Footer-Container">
+
+
+     <!-- Footer Section -->
+     <Section>
+        <div class="Register-Footer-Container">
             <div class="footer-detail">
                 <div class="Contact">
                     <div class="Contact-detail">
@@ -87,6 +95,7 @@
             </div>
         </div>
     </Section>
+
 
 
 

@@ -80,6 +80,10 @@
     margin-left: 8px;
     color: #FFFFFF;
 }
+.Product-details-Container .product-detail .detail a{
+    text-decoration: none;
+}
+
 
 
 
