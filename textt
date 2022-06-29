@@ -398,7 +398,6 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 }
 
 
-
 /* Footer section */
 
 .Footer-Container {
@@ -507,3 +506,84 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 
 
 
+/* Product-details section */
+
+.Product-details-Container .image img{
+    position: absolute;
+    width: 100%;
+    height: 305.5px;
+    object-fit: cover;
+}
+.Product-details-Container .product-detail {
+    position: absolute;
+    width: 828px;
+    height: 244px;
+    left: 300px;
+    top: 415px;
+    display: flex;
+}
+
+.Product-details-Container .product-detail .product-image img{
+    width: 336px;
+    height: 185px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Product-details-Container .product-detail .product-image a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+.Product-details-Container .product-detail .detail{
+    margin-left: 90px;
+}
+.Product-details-Container .product-detail .detail h5{
+    width: 303px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.Product-details-Container .product-detail .detail .price span{
+    font-weight: 700;
+}
+.Product-details-Container .product-detail .detail .Description {
+    width: 412px;
+    height: 76px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    
+}
+.Product-details-Container .product-detail .detail .Description span{
+    font-weight: 700;
+}
+.Product-details-Container .product-detail .detail .status{
+    color: #386B11;
+}
+.Product-details-Container .product-detail .detail .status span{
+    font-weight: 700;
+    color: black;
+}
+.Product-details-Container .product-detail .detail button{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 39px;
+    background: #3003E7;
+    border-radius: 7px;
+    border: none;
+}
+.Product-details-Container .product-detail .detail button span{
+    width: 70px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 8px;
+    color: #FFFFFF;
+}
