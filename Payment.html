@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shipping</title>
+    <title>Payment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Shipping.css">
+    <link rel="stylesheet" href="payment.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -14,8 +15,8 @@
 </head>
 <body>
 
-    <!-- navber -->
-    <nav> 
+      <!-- navber -->
+      <nav> 
         <div class="nabver">
             <div class="logo"><a href="Home.html">LOGO</a></div>
             <div class="nav-list">
@@ -46,29 +47,22 @@
         </div>
    </section>
 
-   <!-- Info Section -->
 
    <section>
-    <div class="Info-Container">
-        <h2>Shipping</h2>
+    <div class="payment-Container">
+        <h2>Payment</h2>
         <form action="/action_page.php">
-            <label for="fname">Address</label>
+            <input type="radio" id="fname" name="fname" value="Paypal">
+            <label for="html">Paypal</label><br>
             <br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">City</label>
-            <br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="fname">Postal-Code</label>
-            <br>
-            <input type="text" id="fname" name="fname"><br><br>
-         
-            <label for="lname">Country</label>
-            <br>
-            <input type="text" id="lname" name="lname"><br><br>
+            <input type="radio" id="fname" name="fname" value="Paypal">
+            <label for="html">Stripe</label><br><br>
            <a href="Payment.html"> <input class="submit" type="button" value="Countinue"></a>
           </form>
     </div>
    </section>
+
+
 
 
    
@@ -115,5 +109,6 @@
 
 
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
 </body>
 </html>

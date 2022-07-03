@@ -1,0 +1,64 @@
+.Shipping-Container .Order-proces-list .list .payment{
+    color: #FE9401;k;
+}
+.payment-Container {
+    box-sizing: border-box;
+    width: 362px;
+    height: 250px;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 110px;
+    margin-left: 520px;
+}
+
+.payment-Container h2{
+    width: 64px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FE9401;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.payment-Container form {
+    margin-left: 27px;
+    margin-top: 30px;
+}
+.payment-Container form label{
+    /* width: 46px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000; */
+}
+.payment-Container form input {
+    /* width: 301px;
+    height: 33px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    border: none; */
+}
+
+.payment-Container .submit{
+    width: 301px;
+    height: 33px;
+    background: #3003E7;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 2px;
+    border: none;
+}
+.payment-Container a{
+    text-decoration: none;
+    color: black;
+   
+}
+.payment-Container p{
+    margin-top: 40px;
+    margin-left: 60px;
+}
