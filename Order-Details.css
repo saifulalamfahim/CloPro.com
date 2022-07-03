@@ -1,0 +1,17 @@
+h1{
+    position: absolute;
+    width: 832px;
+    height: 53px;
+    left: 75px;
+    top: 92px;
+    font-weight: 400;
+    font-size: 44px;
+    color: #000000;
+}
+.Place-Order-Container .Details .Pay-ship .not {
+    display: flex;
+}
+.Place-Order-Container .Details .Pay-ship .not p{
+    color: red;
+    margin-left: 140px;
+} 
