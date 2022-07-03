@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Detail</title>
+    <title>Shipping</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Product-details.css">
+    <link rel="stylesheet" href="Shipping.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <!-- navber -->
     <nav> 
         <div class="nabver">
             <div class="logo"><a href="Home.html">LOGO</a></div>
             <div class="nav-list">
                 <ul>
-                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="User-Profile.html">Profile</a></li>
                     <li><a href="Cart.html">Cart</a></li>
                     <li><a href="Signin.html"><button><span>Login</span></button></a></li>
@@ -26,40 +28,53 @@
             </div>
         </div>
     </nav>
+<!-- Shipping Contaoner secrtion -->
 
-
-    <Section>
-        <div class="Product-details-Container">
-            <div class="image">
-                <img src="Images/Image - 23.png" alt="">
-            </div>
-            <div class="product-detail">
-                <div class="product-image">
-                    <img src="Images/Image - 6.png" alt="">
-                    <a href="Home.html">Back To Home</a>
+   <section>
+        <div class="Shipping-Container">
+            <div class="Order-proces-list">
+                <div class="single-line">
+                    <hr>
                 </div>
-                <div class="detail">
-                    <h5>JABRA BIZ 1500 blackHeadphone </h5>
-                    <div class="Star">
-                        <i><span class="iconify" data-icon="ant-design:star-filled" style="color: black;"></span></i>
-                        <i><span class="iconify" data-icon="ant-design:star-filled" style="color: black;"></span></i>
-                        <i><span class="iconify" data-icon="ant-design:star-filled" style="color: black;"></span></i>
-                        <i><span class="iconify" data-icon="bxs:star-half" style="color: black;"></span></i>
-                        <i><span class="iconify" data-icon="ant-design:star-outlined" style="color: black;"></span></i>
-                    </div>
-                    <p class="price"><Span>Price : </Span>$45</p>
-                    <p class="Description"><span>Description : </span> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor </p>
-                    <p class="status"><span>Status : </span> Available</p>
-                    <a href="Cart.html"><button><span>Add To Cart</span></button></a>
+                <div class="list">
+                    <p class="list-1">Signin</p>
+                    <p class="Shipping">Shipping</p>
+                    <p class="payment">Payment</p>
+                    <p class="placeorder">Place Order</p>
                 </div>
             </div>
         </div>
-    </Section>
+   </section>
+
+   <!-- Info Section -->
+
+   <section>
+    <div class="Info-Container">
+        <h2>Shipping</h2>
+        <form action="/action_page.php">
+            <label for="fname">Address</label>
+            <br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">City</label>
+            <br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="fname">Postal-Code</label>
+            <br>
+            <input type="text" id="fname" name="fname"><br><br>
+         
+            <label for="lname">Country</label>
+            <br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input class="submit" type="submit" value="Countinue">
+          </form>
+    </div>
+   </section>
 
 
-
-    <Section>
-        <div class="Product-Footer-Container">
+   
+     <!-- Footer Section -->
+     <Section>
+        <div class="Shipping-Footer-Container">
             <div class="footer-detail">
                 <div class="Contact">
                     <div class="Contact-detail">
@@ -91,6 +106,11 @@
             </div>
         </div>
     </Section>
+
+
+
+
+    
 
 
 
