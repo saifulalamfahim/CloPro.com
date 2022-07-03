@@ -1,0 +1,170 @@
+.Shipping-Container .Order-proces-list .list .placeorder{
+    color: #FE9401;;
+}
+
+.Place-Order-Container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+.Place-Order-Container .Details .Pay-ship{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Place-Order-Container .Details .Pay-ship .Shipping h3{
+     margin-top: 10px;
+    margin-left: 20px;
+}
+.Place-Order-Container .Details .Pay-ship .Payment h3{
+    margin-top: 10px;
+   margin-left: 20px;
+}
+.Place-Order-Container .Details .Pay-ship p{
+    width: 333px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Place-Order-Container .Details .Pay-ship .Shipping, .Payment{
+    box-sizing: border-box;
+    width: 392px;
+    height: 71px;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.Place-Order-Container .Details .Shopping-Cart {
+    box-sizing: border-box;
+    width: 845px;
+    height: 161px;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.Place-Order-Container .Summery{
+    width: 290px;
+    height: 261px;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.Place-Order-Container .Summery h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.Place-Order-Container .Summery h4{
+    margin-top: 10px;
+    margin-left: 40px; 
+}
+.Place-Order-Container .Summery h4 span{
+    font-weight: 100; 
+}
+.Place-Order-Container .Summery .Order-Total{
+    color: #FE9401;
+}
+.Place-Order-Container .Summery button {
+    width: 205px;
+    height: 35px;
+    background: #3003E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+
+
+.Place-Order-Container .Details .Shopping-Cart h3{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 51px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details img{
+    width: 70px;
+    height: 41px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+   
+}
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details h2{
+    width: 303px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details p {
+    margin-right: 15px;
+}
+
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details .Qty {
+    display: flex;
+    align-items: center;
+    width: 72px;
+    height: 20px;
+     background: #3003E7;
+     border-radius: 7px;
+     color: #FFFFFF;
+     font-weight: 700;
+    font-size: 10px;
+     margin-left: 0.87rem;
+     border: none;
+     margin-right: 4px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-left: -20px;
+}
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details .Qty input{
+    width: 24px;
+    height: 10px;
+    background: #F5F5F5;
+    margin-left: 8px;
+    border: none;
+}
+.Place-Order-Container .Details .Shopping-Cart .Shipping-Details .remove {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 20px;
+     background: #3003E7;
+     border-radius: 7px;
+     color: #FFFFFF;
+     font-weight: 700;
+     font-size: 10px;
+     margin-left: 0.87rem;
+     border: none;
+     margin-right: 4px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 12px;
+     margin-left: -20px;
+}
+

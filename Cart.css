@@ -35,6 +35,8 @@
     color: #000000;
     margin-right: 10px;
 }
+
+
 .Cart-Container .Cart .Shipping-Details {
     display: flex;
     justify-content: space-between;
@@ -105,6 +107,9 @@
      border-radius: 12px;
      margin-left: -20px;
 }
+
+
+
 .Cart-Container .Details {
     width: 522px;
     height: 157px;

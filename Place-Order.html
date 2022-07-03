@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment</title>
+    <title>Place Order</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Shipping.css">
     <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="Palce-Order.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -47,22 +48,56 @@
         </div>
    </section>
 
+   
+   <!-- Place order section -->
 
    <section>
-    <div class="payment-Container">
-        <h2>Payment</h2>
-        <form action="/action_page.php">
-            <input type="radio" id="fname" name="fname" value="Paypal">
-            <label for="html">Paypal</label><br>
-            <br>
-            <input type="radio" id="fname" name="fname" value="Paypal">
-            <label for="html">Stripe</label><br><br>
-           <a href="Place-Order.html"> <input class="submit" type="button" value="Countinue"></a>
-          </form>
+    <div class="Place-Order-Container">
+        <div class="Details">
+            <div class="Pay-ship">
+                <div class="Shipping">
+                    <h3>Shipping</h3>
+                    <p>QWE FRE 45,DHAKA,3456, Bangladesh</p>
+                </div>
+                <div class="Payment">
+                    <h3>Payment</h3>
+                    <p>Paymnet Method :Paypal</p>
+                </div>
+            </div>
+            <div class="Shopping-Cart">
+                <h3>Shopping Cart</h3>
+                <div class="Shipping-Details">
+                    <img src="images/Image - 6.png" alt="">
+                    <h2>JABRA BIZ 1500 blackHeadphone</h2>
+                    <button class="Qty">QTY <input type="number"></button>
+                    <button class="remove">Remove</button>
+                    <p>$45</p>
+                </div>
+                <div class="Shipping-Details">
+                    <img src="images/Image - 8.png" alt="">
+                    <h2>Intensive Eye Cream with Vitamin C</h2>
+                    <button class="Qty">QTY <input type="number"></button>
+                    <button class="remove">Remove</button>
+                    <p>$21</p>
+                </div>
+            </div>
+        </div>
+        <div class="Summery">
+            <h3>Order Summery</h3>
+            <h4>Items : <span>$324</span></h4>
+            <h4>Shipping : <span>$30</span></h4>
+            <h4>Tax : <span>$20</span></h4>
+            <h4 class="Order-Total">Order Total : <span>$384</span></h4>
+            <a href=""><button>Place Order</button></a>
+        </div>
     </div>
-   </section> 
-     <!-- Footer Section -->
-     <Section>
+</section>
+
+
+
+
+    <!-- Footer Section -->
+    <Section>
         <div class="Shipping-Footer-Container">
             <div class="footer-detail">
                 <div class="Contact">
@@ -104,6 +139,7 @@
 
 
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
     
 </body>
 </html>
