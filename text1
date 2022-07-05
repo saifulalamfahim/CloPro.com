@@ -1,13 +1,7 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
     font-family: 'Inter';
     font-style: normal;
-}
-.container{
-    max-width: 100%;
-    margin: auto;
 }
 body{
     background: #F5F5F5
@@ -73,14 +67,17 @@ body{
 }
 
 /* Header section */
-
-.container .Fashon-house h1 {
+.container {
+    /* height: 100%;
+    width: 100%; */
+}
+.container h1 {
     font-weight: 700;
     font-size: 11.25rem;
     color: rgba(0, 0, 0, 0.37);
     transform: matrix(0.00, 1, -1, 0.00, -595, 558);
 }
-.container .Fashon-house h5 {
+.container h5 {
 font-weight: 700;
 font-size: 2.375rem;
 color: rgba(252, 25, 25, 0.37);
@@ -188,7 +185,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 
 
 /* products section */
-.container .PRODUCTS{
+.Products-Container .PRODUCTS{
     position: absolute;
     width: 661px;
     height: 145px;
@@ -203,7 +200,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: #000000;
     text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);
 }
-.container .Card {
+.Products-Container .Card {
     position: absolute;
     width: 989px;
     height: 567px;
@@ -211,24 +208,24 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     top: 955px;
     /* background: red; */
 }
-.container .Card .card-split{
+.Products-Container .Card .card-split{
     display: flex;
     justify-content: space-between;
     padding-bottom: 21px;
 }
 
-.container .Card .card-split .card-1{
+.Products-Container .Card .card-split .card-1{
     width: 233px;
     height: 273px;
     background: #D9D9D9;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.container .Card .card-split .card-1 .card-img img{
+.Products-Container .Card .card-split .card-1 .card-img img{
     width: 100%;
     height: 151px;
     object-fit: cover;
 }
-.container .Card .card-split .card-1 .Card-dtails .Card-name h1{
+.Products-Container .Card .card-split .card-1 .Card-dtails .Card-name h1{
     width: 209px;
     height: 38px;
     padding-top: 3px;
@@ -238,25 +235,25 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     line-height: 19px;
     color: #000000;
 }
-.container .Card .card-split .card-1 .Card-dtails .Star {
+.Products-Container .Card .card-split .card-1 .Card-dtails .Star {
     display: flex;
     width: 87px;
     height: 16px;
 }
-.container .Card .card-split .card-1 .Card-dtails .Star .iconify{
+.Products-Container .Card .card-split .card-1 .Card-dtails .Star .iconify{
     width: 19px;
     height: 19px;
     padding-top: 15px;
     padding-left: 3px;
 }
-.container .Card .card-split .card-1 .Card-dtails .Brend-price {
+.Products-Container .Card .card-split .card-1 .Card-dtails .Brend-price {
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
     padding-left: 3px;
     padding-right: 5px;
 }
-.container .Card .card-split .card-1 .Card-dtails .Brend-price p{
+.Products-Container .Card .card-split .card-1 .Card-dtails .Brend-price p{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -265,7 +262,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 }
 
 /* Banner Section */
-/* .container {
+.Banner-Container {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -273,8 +270,8 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     height: 492px;
     top: 1641px;
     background: linear-gradient(266.84deg, #FEE26C 5.12%, #FE9401 79.27%);
-} */
-.container .Banner-detail h2{
+}
+.Banner-Container .Banner-detail h2{
     margin-top: 90px;
     margin-left: 80px;
     width: 381px;
@@ -285,7 +282,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: #FFFFFF;
 }
 
-.container .Banner-detail h1{
+.Banner-Container .Banner-detail h1{
     margin-left: 65px;
     width: 572px;
     height: 120px;
@@ -296,7 +293,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.container .Banner-detail .pp{
+.Banner-Container .Banner-detail .pp{
     margin-left: 78px;
     width: 623px;
     height: 19px;
@@ -305,7 +302,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     font-size: 16px;
     color: #000000;
 }
-.container .Banner-detail .ppp{
+.Banner-Container .Banner-detail .ppp{
     margin-left: 78px;
     margin-top: 70px;
     width: 390px;
@@ -315,7 +312,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     font-style: italic;
     color: #000000;
 }
-.container .Banner-img img{
+.Banner-Container .Banner-img img{
     margin-right: 80px;
     width: 496px;
     height: 492px;
@@ -328,7 +325,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 /* Clothes section */
 
 
-.container .CLOTHES{
+.Clothes-Container .CLOTHES{
     position: absolute;
     width: 554px;
     height: 145px;
@@ -340,31 +337,31 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: #000000;
     text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);   
 }
-.container .Card1 {
+.Clothes-Container .Card {
     position: absolute;
     width: 989px;
     height: 567px;
     left: 198px;
     top: 2435px;
 }
-.container .Card1 .card-split{
+.Clothes-Container .Card .card-split{
     display: flex;
     justify-content: space-between;
     padding-bottom: 21px;
 }
 
-.container .Card1 .card-split .card-1{
+.Clothes-Container .Card .card-split .card-1{
     width: 233px;
     height: 273px;
     background: #D9D9D9;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.container .Card1 .card-split .card-1 .card-img img{
+.Clothes-Container .Card .card-split .card-1 .card-img img{
     width: 100%;
     height: 151px;
     object-fit: cover;
 }
-.container .Card1 .card-split .card-1 .Card-dtails .Card-name h1{
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Card-name h1{
     width: 209px;
     height: 38px;
     padding-top: 3px;
@@ -374,25 +371,25 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     line-height: 19px;
     color: #000000;
 }
-.container .Card1 .card-split .card-1 .Card-dtails .Star {
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Star {
     display: flex;
     width: 87px;
     height: 16px;
 }
-.container .Card1 .card-split .card-1 .Card-dtails .Star .iconify{
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Star .iconify{
     width: 19px;
     height: 19px;
     padding-top: 15px;
     padding-left: 3px;
 }
-.container .Card1 .card-split .card-1 .Card-dtails .Brend-price {
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Brend-price {
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
     padding-left: 3px;
     padding-right: 5px;
 }
-.container .Card1 .card-split .card-1 .Card-dtails .Brend-price p{
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Brend-price p{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -404,29 +401,29 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 
 /* Footer section */
 
-/* .container {
+.Footer-Container {
     position: absolute;
     width: 100%;
     height: 365px;
     left: 0px;
     top: 3135px;
     background: #000000;
-} */
+}
 
-.container .footer-detail {
+.Footer-Container .footer-detail {
     display: flex;
     justify-content: space-between;
     color: white;
     /* margin-top: 150px; */
 }
-.container .footer-detail .Contact{
+.Footer-Container .footer-detail .Contact{
     display: flex;
     /* margin-top: 100px; */
 }
-.container .footer-detail .Contact .Contact-detail {
+.Footer-Container .footer-detail .Contact .Contact-detail {
     margin-top: 140px;
 }
-.container .footer-detail .Contact .Contact-detail p{
+.Footer-Container .footer-detail .Contact .Contact-detail p{
     width: 310px;
     height: 16px;
     font-weight: 400;
@@ -435,7 +432,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     margin-left: 130px;
     padding-top: 15px;
 }
-.container .footer-detail .Contact .line {
+.Footer-Container .footer-detail .Contact .line {
     width: 217px;
     height: 50px;
     border-top: 2px solid #FFFFFF;
@@ -444,14 +441,14 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     margin-left: -70px;
     margin-top: 130px;
 }
-.container .footer-detail .partner {
+.Footer-Container .footer-detail .partner {
     display: flex;
     margin-left: -80px;
 }
-.container .footer-detail .partner .partner-detail{
+.Footer-Container .footer-detail .partner .partner-detail{
     margin-top: 100px;
 }
-.container .footer-detail .partner .partner-detail h5 {
+.Footer-Container .footer-detail .partner .partner-detail h5 {
     width: 64px;
     height: 22px;
     font-weight: 400;
@@ -459,14 +456,14 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-.container .footer-detail .partner p{
+.Footer-Container .footer-detail .partner p{
     width: 335px;
     height: 120px;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
 }
-.container .footer-detail .partner .line-1 {
+.Footer-Container .footer-detail .partner .line-1 {
     width: 217px;
     height: 50px;
     border-top: 2px solid #FFFFFF;
@@ -475,17 +472,17 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     margin-left: -80px;
     margin-top: 130px;
 }
-.container .footer-detail .social-media {
+.Footer-Container .footer-detail .social-media {
     margin-top: 180px;
     margin-right: 90px;
     margin-left: -90px;
 }
-.container .footer-detail .social-media .iconify {
+.Footer-Container .footer-detail .social-media .iconify {
     font-size: 70px;
     padding-right: 10px;
 }
 
-.container .cpyright p{
+.Footer-Container .cpyright p{
     width: 1138px;
     height: 41px;
     font-weight: 400;
@@ -496,7 +493,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     margin-left: 120px;
     padding-top: 10px;
 }
-.container .cpyright .copy{
+.Footer-Container .cpyright .copy{
     width: 284px;
     height: 7px;
     font-weight: 400;
