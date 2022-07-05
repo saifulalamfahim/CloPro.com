@@ -1,24 +1,23 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: auto;
-    font-family: 'Inter';
-    font-style: normal;
-}
-.container{
-    max-width: 100%;
-    margin: auto;
+    padding: 0;
 }
 body{
     background: #F5F5F5
     ;
-    margin-left: auto;
+}
+
+.Container{
+    max-width: 100%;
+    margin: auto;
 }
 .nabver {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1366px;
+    width: 100%;
     height: 4.125rem;
     background: #FFFFFF;
     box-shadow: 0rem 0rem 0.688rem 0.125rem rgba(0, 0, 0, 0.24);
@@ -74,14 +73,17 @@ body{
 }
 
 /* Header section */
-
-.container .Fashon-house h1 {
+.container {
+    /* height: 100%;
+    width: 100%; */
+}
+.container h1 {
     font-weight: 700;
     font-size: 11.25rem;
     color: rgba(0, 0, 0, 0.37);
     transform: matrix(0.00, 1, -1, 0.00, -595, 558);
 }
-.container .Fashon-house h5 {
+.container h5 {
 font-weight: 700;
 font-size: 2.375rem;
 color: rgba(252, 25, 25, 0.37);
@@ -185,328 +187,5 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: rgba(106, 207, 227, 0.54);
     transform: matrix(0.00, 1, -1, 0.00, 566, 296);
 }
-
-
-
-/* products section */
-.container .PRODUCTS{
-    position: absolute;
-    width: 661px;
-    height: 145px;
-    left: 363px;
-    top: 735px;
-    font-weight: 400;
-    font-size: 120px;
-    line-height: 145px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);
-}
-.container .Card {
-    position: absolute;
-    width: 989px;
-    height: 567px;
-    left: 208px;
-    top: 955px;
-    /* background: red; */
-}
-.container .Card .card-split{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 21px;
-}
-
-.container .Card .card-split .card-1{
-    width: 233px;
-    height: 273px;
-    background: #D9D9D9;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.container .Card .card-split .card-1 .card-img img{
-    width: 100%;
-    height: 151px;
-    object-fit: cover;
-}
-.container .Card .card-split .card-1 .Card-dtails .Card-name h1{
-    width: 209px;
-    height: 38px;
-    padding-top: 3px;
-    padding-left: 3px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
-.container .Card .card-split .card-1 .Card-dtails .Star {
-    display: flex;
-    width: 87px;
-    height: 16px;
-}
-.container .Card .card-split .card-1 .Card-dtails .Star .iconify{
-    width: 19px;
-    height: 19px;
-    padding-top: 15px;
-    padding-left: 3px;
-}
-.container .Card .card-split .card-1 .Card-dtails .Brend-price {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 35px;
-    padding-left: 3px;
-    padding-right: 5px;
-}
-.container .Card .card-split .card-1 .Card-dtails .Brend-price p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #000000;
-}
-
-/* Banner Section */
-/* .container {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 492px;
-    top: 1641px;
-    background: linear-gradient(266.84deg, #FEE26C 5.12%, #FE9401 79.27%);
-} */
-.container .Banner-detail h2{
-    margin-top: 90px;
-    margin-left: 80px;
-    width: 381px;
-    height: 80px;
-    font-weight: 900;
-    font-size: 66px;
-    font-style: italic;
-    color: #FFFFFF;
-}
-
-.container .Banner-detail h1{
-    margin-left: 65px;
-    width: 572px;
-    height: 120px;
-    font-weight: 700;
-    font-size: 99px;
-    font-style: italic;
-    line-height: 120px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.container .Banner-detail .pp{
-    margin-left: 78px;
-    width: 623px;
-    height: 19px;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 16px;
-    color: #000000;
-}
-.container .Banner-detail .ppp{
-    margin-left: 78px;
-    margin-top: 70px;
-    width: 390px;
-    height: 19px;
-    font-weight: 300;
-    font-size: 16px;
-    font-style: italic;
-    color: #000000;
-}
-.container .Banner-img img{
-    margin-right: 80px;
-    width: 496px;
-    height: 492px;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 86% 100%, 14% 100%);
-    background: #D9D9D9;
-}
-
-
-/* Clothes section */
-
-
-.container .CLOTHES{
-    position: absolute;
-    width: 554px;
-    height: 145px;
-    left: 414px;
-    top: 2194px;
-    font-weight: 400;
-    font-size: 120px;
-    line-height: 145px;
-    color: #000000;
-    text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);   
-}
-.container .Card1 {
-    position: absolute;
-    width: 989px;
-    height: 567px;
-    left: 198px;
-    top: 2435px;
-}
-.container .Card1 .card-split{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 21px;
-}
-
-.container .Card1 .card-split .card-1{
-    width: 233px;
-    height: 273px;
-    background: #D9D9D9;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.container .Card1 .card-split .card-1 .card-img img{
-    width: 100%;
-    height: 151px;
-    object-fit: cover;
-}
-.container .Card1 .card-split .card-1 .Card-dtails .Card-name h1{
-    width: 209px;
-    height: 38px;
-    padding-top: 3px;
-    padding-left: 3px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
-.container .Card1 .card-split .card-1 .Card-dtails .Star {
-    display: flex;
-    width: 87px;
-    height: 16px;
-}
-.container .Card1 .card-split .card-1 .Card-dtails .Star .iconify{
-    width: 19px;
-    height: 19px;
-    padding-top: 15px;
-    padding-left: 3px;
-}
-.container .Card1 .card-split .card-1 .Card-dtails .Brend-price {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 35px;
-    padding-left: 3px;
-    padding-right: 5px;
-}
-.container .Card1 .card-split .card-1 .Card-dtails .Brend-price p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #000000;
-}
-
-
-
-/* Footer section */
-
-/* .container {
-    position: absolute;
-    width: 100%;
-    height: 365px;
-    left: 0px;
-    top: 3135px;
-    background: #000000;
-} */
-
-.container .footer-detail {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    /* margin-top: 150px; */
-}
-.container .footer-detail .Contact{
-    display: flex;
-    /* margin-top: 100px; */
-}
-.container .footer-detail .Contact .Contact-detail {
-    margin-top: 140px;
-}
-.container .footer-detail .Contact .Contact-detail p{
-    width: 310px;
-    height: 16px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-left: 130px;
-    padding-top: 15px;
-}
-.container .footer-detail .Contact .line {
-    width: 217px;
-    height: 50px;
-    border-top: 2px solid #FFFFFF;
-    border-color: white;
-    transform: rotate(89.73deg);
-    margin-left: -70px;
-    margin-top: 130px;
-}
-.container .footer-detail .partner {
-    display: flex;
-    margin-left: -80px;
-}
-.container .footer-detail .partner .partner-detail{
-    margin-top: 100px;
-}
-.container .footer-detail .partner .partner-detail h5 {
-    width: 64px;
-    height: 22px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding-bottom: 20px;
-}
-.container .footer-detail .partner p{
-    width: 335px;
-    height: 120px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-}
-.container .footer-detail .partner .line-1 {
-    width: 217px;
-    height: 50px;
-    border-top: 2px solid #FFFFFF;
-    border-color: white;
-    transform: rotate(89.73deg);
-    margin-left: -80px;
-    margin-top: 130px;
-}
-.container .footer-detail .social-media {
-    margin-top: 180px;
-    margin-right: 90px;
-    margin-left: -90px;
-}
-.container .footer-detail .social-media .iconify {
-    font-size: 70px;
-    padding-right: 10px;
-}
-
-.container .cpyright p{
-    width: 1138px;
-    height: 41px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-left: 120px;
-    padding-top: 10px;
-}
-.container .cpyright .copy{
-    width: 284px;
-    height: 7px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #D9D9D9;
-    margin-left: 560px;
-    padding-top: 20px;
-}
-
 
 
