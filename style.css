@@ -94,17 +94,16 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     justify-content: space-between;
 }
 .header .gallery .gallery-1 .curousel img{
-    position: absolute;
     width: 585.28px;
     height: 435px;
-    left: 230.42px;
-    top: 97.11px;
     box-shadow: 2px 3px 8px rgba(105, 89, 89, 0.4);
     border-radius: 6px;
     object-fit: cover;
+    margin-top: 60px;
+    margin-left: 100px;
 }
-.header .gallery .gallery-1 .curousel .icon{
-    display: flex;
+/* .header .gallery .gallery-1 .curousel .icon{
+
     justify-content: space-between;
     position: absolute;
     width: 573.91px;
@@ -112,19 +111,17 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     left: 236.09px;
     top: 303px;
     color: rgb(255, 255, 255);
-}
+} */
 .header .gallery .gallery-1 .curousel .Curousel-details{
     color: #FFFFFF;
 }
 .header .gallery .gallery-1 .curousel .Curousel-details h2{
-    position: absolute;
     width: 331px;
     height: 46px;
-    left: 401px;
-    top: 345px;
     font-weight: 400;
     font-size: 38px;
     line-height: 46px;
+    margin-left: 70px;
 }
 .header .gallery .gallery-1 .curousel .Curousel-details p{
     position: absolute;
@@ -166,7 +163,7 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
     object-fit: cover;
     margin-right: 133px;
-    margin-top: -425px;
+    margin-top: 60px;
 
 }
 .header .some-text{
