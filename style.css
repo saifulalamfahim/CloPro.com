@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: auto;
     font-family: 'Inter';
     font-style: normal;
 }
@@ -12,12 +12,13 @@
 body{
     background: #F5F5F5
     ;
+    margin-left: auto;
 }
 .nabver {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 1366px;
     height: 4.125rem;
     background: #FFFFFF;
     box-shadow: 0rem 0rem 0.688rem 0.125rem rgba(0, 0, 0, 0.24);
