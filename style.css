@@ -1,22 +1,17 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: normal;
 }
-/* body{
-   background: blue;
-} */
-
-.Container{
-    max-width: 100%;
-    margin: auto;
+body{
+    background: #F5F5F5
+    ;
 }
 .nabver {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 4.125rem;
     background: #FFFFFF;
     box-shadow: 0rem 0rem 0.688rem 0.125rem rgba(0, 0, 0, 0.24);
@@ -71,110 +66,108 @@
     margin-left: 0.87rem;
 }
 
-.header{
-    background: red;
-}
-
 /* Header section */
-.header .Fashon-house h1 {
+.container {
+    /* height: 100%;
+    width: 100%; */
+}
+.container h1 {
     font-weight: 700;
     font-size: 11.25rem;
     color: rgba(0, 0, 0, 0.37);
     transform: matrix(0.00, 1, -1, 0.00, -595, 558);
 }
-.header .Fashon-house h5 {
+.container h5 {
 font-weight: 700;
 font-size: 2.375rem;
 color: rgba(252, 25, 25, 0.37);
 transform: matrix(0.01, 1, -1, 0.01, -470, 458);
 }
-
-.header .gallery{
+.container .gallery .gallery-1 .curousel img{
+    position: absolute;
+    width: 36.58rem;
+    height: 27.188rem;
+    left: 14.401rem;
+    top: 6.069rem;
+    box-shadow: 0.125rem 0.188rem 0.5rem rgba(105, 89, 89, 0.4);
+    border-radius: 0.375rem;
+    object-fit: cover;
+}
+.container .gallery .gallery-1 .curousel .icon{
     display: flex;
     justify-content: space-between;
-}
-.header .gallery .gallery-1 .curousel img{
-    width: 585.28px;
-    height: 435px;
-    box-shadow: 2px 3px 8px rgba(105, 89, 89, 0.4);
-    border-radius: 6px;
-    object-fit: cover;
-    margin-top: 60px;
-    margin-left: 100px;
-}
-/* .header .gallery .gallery-1 .curousel .icon{
-
-    justify-content: space-between;
     position: absolute;
-    width: 573.91px;
-    height: 32.31px;
-    left: 236.09px;
-    top: 303px;
-    color: rgb(255, 255, 255);
-} */
-.header .gallery .gallery-1 .curousel .Curousel-details{
+    width: 35.869rem;
+    height: 2.019rem;
+    left: 14.756rem;
+    top: 18.938rem;
+    color: white;
+}
+.container .gallery .gallery-1 .curousel .Curousel-details{
     color: #FFFFFF;
 }
-.header .gallery .gallery-1 .curousel .Curousel-details h2{
-    width: 331px;
-    height: 46px;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 46px;
-    margin-left: 70px;
-}
-.header .gallery .gallery-1 .curousel .Curousel-details p{
+.container .gallery .gallery-1 .curousel .Curousel-details h2{
     position: absolute;
-    width: 518.2px;
-    height: 118px;
-    left: 264px;
-    top: 394px;
+    width: 20.688rem;
+    height: 2.875rem;
+    left: 25.063rem;
+    top: 21.563rem;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+}
+.container .gallery .gallery-1 .curousel .Curousel-details p{
+    position: absolute;
+    width: 32.388rem;
+    height: 7.375rem;
+    left: 16.5rem;
+    top: 24.625rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     display: flex;
     align-items: center;
     text-align: center;
 }
-.header .gallery .gallery-1 .carousel-Gallery ul{
+.container .gallery .gallery-1 .carousel-Gallery ul{
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-left: 270px;
-    margin-top: 30px;
+    top: 34.694rem;
+    left:14.254rem;
+
 }
-.header .gallery .gallery-1 .carousel-Gallery li{
+.container .gallery .gallery-1 .carousel-Gallery li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
-.header .gallery .gallery-1 .carousel-Gallery img {
-    width: 143.89px;
+.container .gallery .gallery-1 .carousel-Gallery img {
+    width: 8.993rem;
     height: 100px;
     object-fit: cover;
-    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+    box-shadow:  0.125rem 0.188rem 0.5rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.625rem;
 }
 
-.header .gallery .gallery-2 img{
-    /* position: absolute; */
-    width: 325.7px;
-    height: 552px;
-    /* left: 897.37px;
-    top: 103.11px; */
-    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+.container .gallery .gallery-2 img{
+    position: absolute;
+    width: 20.356rem;
+    height: 34.5rem;
+    left: 56.086rem;
+    top: 6.444rem;
+    box-shadow: 0.125rem 0.188rem 0.5rem rgba(0, 0, 0, 0.4);
     object-fit: cover;
-    margin-right: 133px;
-    margin-top: 60px;
-
 }
-.header .some-text{
-    width: 832.23px;
-    height: 44px;
+.container .some-text{
+    position: absolute;
+    width: 52.014rem;
+    height: 2.75rem;
+    left: 18.655rem;
+    top: 42.257rem;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125;
     text-align: center;
     color: rgba(0, 0, 0, 0.84);
-    margin-left: 250px;
-    margin-top: 30px;
 }
 /* .container h1 {
     font-weight: 700;
@@ -182,11 +175,334 @@ transform: matrix(0.01, 1, -1, 0.01, -470, 458);
     color: rgba(0, 0, 0, 0.37);
     transform: matrix(0.00, 1, -1, 0.00, -595, 558);
 } */
-.header .fashion h1{
+.container .fashion h1{
     font-weight: 700;
-    font-size: 180px;
+    font-size: 11.25rem;
     color: rgba(106, 207, 227, 0.54);
     transform: matrix(0.00, 1, -1, 0.00, 566, 296);
 }
+
+
+
+/* products section */
+.Products-Container .PRODUCTS{
+    position: absolute;
+    width: 661px;
+    height: 145px;
+    left: 363px;
+    top: 735px;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 145px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);
+}
+.Products-Container .Card {
+    position: absolute;
+    width: 989px;
+    height: 567px;
+    left: 208px;
+    top: 955px;
+    /* background: red; */
+}
+.Products-Container .Card .card-split{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+}
+
+.Products-Container .Card .card-split .card-1{
+    width: 233px;
+    height: 273px;
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Products-Container .Card .card-split .card-1 .card-img img{
+    width: 100%;
+    height: 151px;
+    object-fit: cover;
+}
+.Products-Container .Card .card-split .card-1 .Card-dtails .Card-name h1{
+    width: 209px;
+    height: 38px;
+    padding-top: 3px;
+    padding-left: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.Products-Container .Card .card-split .card-1 .Card-dtails .Star {
+    display: flex;
+    width: 87px;
+    height: 16px;
+}
+.Products-Container .Card .card-split .card-1 .Card-dtails .Star .iconify{
+    width: 19px;
+    height: 19px;
+    padding-top: 15px;
+    padding-left: 3px;
+}
+.Products-Container .Card .card-split .card-1 .Card-dtails .Brend-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.Products-Container .Card .card-split .card-1 .Card-dtails .Brend-price p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Banner Section */
+.Banner-Container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 492px;
+    top: 1641px;
+    background: linear-gradient(266.84deg, #FEE26C 5.12%, #FE9401 79.27%);
+}
+.Banner-Container .Banner-detail h2{
+    margin-top: 90px;
+    margin-left: 80px;
+    width: 381px;
+    height: 80px;
+    font-weight: 900;
+    font-size: 66px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.Banner-Container .Banner-detail h1{
+    margin-left: 65px;
+    width: 572px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 99px;
+    font-style: italic;
+    line-height: 120px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Banner-Container .Banner-detail .pp{
+    margin-left: 78px;
+    width: 623px;
+    height: 19px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: #000000;
+}
+.Banner-Container .Banner-detail .ppp{
+    margin-left: 78px;
+    margin-top: 70px;
+    width: 390px;
+    height: 19px;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    color: #000000;
+}
+.Banner-Container .Banner-img img{
+    margin-right: 80px;
+    width: 496px;
+    height: 492px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 14% 100%);
+    background: #D9D9D9;
+}
+
+
+/* Clothes section */
+
+
+.Clothes-Container .CLOTHES{
+    position: absolute;
+    width: 554px;
+    height: 145px;
+    left: 414px;
+    top: 2194px;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 145px;
+    color: #000000;
+    text-shadow: 15px 15px 4px rgba(9, 75, 84, 0.11);   
+}
+.Clothes-Container .Card {
+    position: absolute;
+    width: 989px;
+    height: 567px;
+    left: 198px;
+    top: 2435px;
+}
+.Clothes-Container .Card .card-split{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+}
+
+.Clothes-Container .Card .card-split .card-1{
+    width: 233px;
+    height: 273px;
+    background: #D9D9D9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Clothes-Container .Card .card-split .card-1 .card-img img{
+    width: 100%;
+    height: 151px;
+    object-fit: cover;
+}
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Card-name h1{
+    width: 209px;
+    height: 38px;
+    padding-top: 3px;
+    padding-left: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Star {
+    display: flex;
+    width: 87px;
+    height: 16px;
+}
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Star .iconify{
+    width: 19px;
+    height: 19px;
+    padding-top: 15px;
+    padding-left: 3px;
+}
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Brend-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.Clothes-Container .Card .card-split .card-1 .Card-dtails .Brend-price p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/* Footer section */
+
+.Footer-Container {
+    position: absolute;
+    width: 100%;
+    height: 22.813rem;;
+    left: 0rem;
+    top: 195.938rem;
+    background: #000000;
+}
+
+.Footer-Container .footer-detail {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* margin-top: 150px; */
+}
+.Footer-Container .footer-detail .Contact{
+    display: flex;
+    /* margin-top: 100px; */
+}
+.Footer-Container .footer-detail .Contact .Contact-detail {
+    margin-top: 8.75rem;
+}
+.Footer-Container .footer-detail .Contact .Contact-detail p{
+    width: 19.rem;
+    height: 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    margin-left: 8.125rem;
+    padding-top: 0.938rem;
+}
+.Footer-Container .footer-detail .Contact .line {
+    width: 13.563rem;
+    height: 3.125rem;
+    border-top: 0.125rem solid #FFFFFF;
+    border-color: white;
+    transform: rotate(89.73deg);
+    margin-left: -4.375rem;
+    margin-top: 8.125rem;
+}
+.Footer-Container .footer-detail .partner {
+    display: flex;
+    margin-left: -5rem;
+}
+.Footer-Container .footer-detail .partner .partner-detail{
+    margin-top: 6.25rem;
+}
+.Footer-Container .footer-detail .partner .partner-detail h5 {
+    width: 4rem;
+    height: 1.375rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    padding-bottom: 1.25rem;
+}
+.Footer-Container .footer-detail .partner p{
+    width: 20.938rem;
+    height: 7.5;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+.Footer-Container .footer-detail .partner .line-1 {
+    width: 13.563rem;
+    height: 3.125rem;
+    border-top: 0.125rem solid #FFFFFF;
+    border-color: white;
+    transform: rotate(89.73deg);
+    margin-left: -5rem;
+    margin-top: 8.125rem;
+}
+.Footer-Container .footer-detail .social-media {
+    margin-top: 11.25rem;
+    margin-right: 5.625rem;
+    margin-left: -5.625rem;
+}
+.Footer-Container .footer-detail .social-media .iconify {
+    font-size: 4.375rem;
+    padding-right: 0.625rem;
+}
+
+.Footer-Container .cpyright p{
+    width: 71.125rem;
+    height: 2.563rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 7.5rem;
+    padding-top: 0.625rem;
+}
+.Footer-Container .cpyright .copy{
+    width: 17.75rem;
+    height: 1.125;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #D9D9D9;
+    margin-left: 35rem;
+    padding-top: 1.25rem;
+}
+
 
 
